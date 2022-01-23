@@ -28,8 +28,6 @@ public abstract class TestBase {
 
     @AfterMethod
     public void closeDown(){
-        driver.quit();
-
-
+        Driver.closeDriver();
     }
 }
